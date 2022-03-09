@@ -10,4 +10,5 @@ create_readme:
 	echo " |___/                             |___/ |___/"  >> README.md
 	echo "Amount of lines: " >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
+	echo "<br>"
 	date >> README.md
